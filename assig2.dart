@@ -49,7 +49,7 @@ Branch: ${this.branch}\n""");
     this.marks!.forEach((key, value) {
       print("${key}: ${value}/100\n");
     });
-    showMarks();
-    showPercentage();
+    this.showMarks();
+    this.showPercentage();
   }
 }
